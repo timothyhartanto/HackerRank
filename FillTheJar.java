@@ -1,8 +1,8 @@
-package com.project.test;
+package com.project.fillthejar;
 
 import java.io.*;
 
-public class Test {
+public class FillTheJar {
 	public static void main(String[] args) throws NumberFormatException, IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String read = br.readLine();
@@ -29,24 +29,6 @@ public class Test {
         
         result = result / N;
         System.out.println(Math.round(result - 0.5));
-        //Double d = Double.valueOf(result);
-        //System.out.println(Integer.valueOf(Double.valueOf(result).intValue()));
 	}
 }
 
-//Date d = new Date(9, 4, 1980);
-//
-//Friend f = new Friend("Stephen");
-//f.setDate(d);
-//
-//f.setEmail("a.b@c");
-//System.out.println(f);
-//System.out.println("\n");
-//
-//f.setEmail("a@b.c");
-//System.out.println(f);
-//System.out.println("\n");
-//
-//f.setEmail("a.b.c");
-//System.out.println(f);
-//System.out.println("\n");
